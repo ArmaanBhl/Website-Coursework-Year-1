@@ -1,0 +1,560 @@
+Index Page
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Con 2023</title>
+    <link rel="stylesheet" href="design.css"><!--LINKS TO MY CSS PAGE-->
+</head> 
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" id="navbar-logo">Tech-Con 2023</a> 
+        <div class="navbar-toggle-button" id="mobile-menu"> 
+        </div>
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                 <a href="index.html" class="navbar-links" id="home-page">Home</a>  
+            </li>
+            <li class="navbar-item">
+                <a href="contact.html" class="navbar-links" id="contact-page">Contact</a>
+            </li>
+            <li class="navbar-item">
+                <a href="schedule.html" class="navbar-links" id="schedule-page">Schedule</a>                    <!--Links all my pages together-->
+            </li>
+            <li class="navbar-item">
+                <a href="speakers.html" class="navbar-links" id="speakers-page">Speakers</a>
+            </li>
+            <li class="navbar-button">
+                <a href="register.html" class="button" id="register-page">Registration</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+
+  <!-- Overview Section -->
+  <div class="main" id="home">
+    <div class="Overview-container"> <!--div-->
+        <h1 class="Overview-heading">Overview</h1> <!--header-->
+        <p class="overview-description">Tech Con 2023 marked a pivotal moment in the ever-evolving landscape of technology. 
+            The conference brought together visionaries, innovators, and industry leaders from around the globe to explore the latest breakthroughs and trends shaping the future. 
+            Attendees immersed themselves in a dynamic environment of cutting-edge demonstrations, hands-on workshops, and thought-provoking keynote sessions. 
+            The event showcased emerging technologies such as artificial intelligence, quantum computing, and augmented reality, underscoring the rapid pace of innovation. 
+            Panel discussions and collaborative forums facilitated engaging conversations on topics ranging from sustainability in tech to the ethical considerations of advanced AI applications. 
+            Tech Con 2023 not only celebrated the achievements of the tech community but also fostered a spirit of collaboration and shared commitment to pushing the boundaries of what technology 
+            can achieve for the betterment of society.</p>
+    </div>
+  </div>
+
+  <!-- Dates Section -->
+  <div class="date-conference" id="date">
+    <div class="date-container">
+        <h1 class="date-heading">Dates</h1> <!--headers-->
+            <table style="width:45%">
+                <tr>
+                  <td><b>Date</td></b> <!--the two columns-->
+                  <td><b>Time</td></b>
+                </tr>
+                <tr>
+                  <td>01/12/23</td>  <!--the rows-->
+                  <td>10:00am - 5:00pm</td>  <!--the rows-->
+                </tr>
+                <tr>
+                    <td>02/12/23</td>  <!--the rows-->
+                    <td>10:00am - 5:00pm</td>  <!--the rows-->
+                </tr>
+                <tr>
+                <td>03/12/23</td>  <!--the rows-->
+                <td>10:00am - 3:00pm</td>  <!--the rows-->
+                </tr>
+              </table>
+              <img src="/images/home page img 1.jpg" alt="pic2"> <!--image-->
+    </div>
+  </div>
+
+  <!-- Venue details -->
+  <div class="venue-details" id="venue">
+    <div class="venue-container">
+        <h1 class="venue-heading">Venue</h1>
+        <p class="Venue-description">We are delighted to back in the Turing Theatre and Maxwell Library at IET London: Savoy Place – the original home of the BBC when it was the British Broadcasting Company! 
+            IET London: Savoy Place is on the North bank of the River Thames, a short walk from Embankment, Charing Cross and Waterloo Underground stations in central London. Many shops and tourist attractions nearby for people to explore! </p>
+    <image src="/images/IET-map.jpg" alt="Map"> <!--image-->
+    </div>
+   </div> 
+
+   <!-- Footer Section -->
+ <div class="footer-container">
+            <div class="footer-link-items">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="schedule.html">Schedule</a>          <!--FOOTER WITH BUTTONS THAT LINKS TO MY PAGES-->
+                <a href="speakers.html">Speakers</a>
+                <a href="register.html">Register!</a>
+    </div>
+</div> 
+
+</body>
+</html>
+
+
+
+
+
+Register Page
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech-Con 2023</title>
+    <link rel="stylesheet" href="design.css" /> <!--LINKS TO MY CSS PAGE-->
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+          <a href="index.html" id="navbar-logo">Tech-Con 2023</a> 
+          <div class="navbar-toggle-button" id="mobile-menu"> 
+          </div>
+          <ul class="navbar-menu">
+              <li class="navbar-item">
+                   <a href="index.html" class="navbar-links" id="home-page">Home</a>  
+              </li>
+              <li class="navbar-item">
+                  <a href="contact.html" class="navbar-links" id="contact-page">Contact</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="schedule.html" class="navbar-links" id="schedule-page">Schedule</a>                    <!--Links all my pages together-->
+              </li>
+              <li class="navbar-item">
+                  <a href="speakers.html" class="navbar-links" id="speakers-page">Speakers</a>
+              </li>
+              <li class="navbar-button">
+                  <a href="register.html" class="button" id="register-page">Registration</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+    <div class="register-container">
+      <div class="form-box">
+        <h1 id="title">Sign Up</h1> <!--Sign Up Header-->
+        <form>
+          <div class="input-group">
+            <div class="input-field" id="namefield">
+              <input type="text" placeholder="Name" required /> <!--when nothing is being input it will have Name showing as a placeholder-->
+            </div>
+
+            <div class="input-field">
+              <input type="email" required placeholder="Email" /> <!--when nothing is being input it will have Email showing as a placeholder-->
+            </div>
+          </div>
+          <div class="button-field">
+            <button type="submit" id="signupbtn">Sign Up</button> <!--when nothing is being input it will have Sign Up showing as a placeholder-->
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript">
+      let signupBtn = document.getElementById("signupbtn"); 
+      let namefield = document.getElementById("namefield");
+      let title = document.getElementById("title");
+
+      signinbtn.onclick = function () {
+        namefield.style.maxHeight = "0"; //setting name to maxheight 0 will hide it
+        title.innerHTML = "Sign In"; 
+        signupBtn.classList.add("disable"); //disables it when clicked on
+        signupBtn.classList.remove("disable");
+      };
+
+      signupbtn.onclick = function () {
+        namefield.style.maxHeight = "50px";  //reveals "Sign Up"
+        title.innerHTML = "Sign Up";
+        signupBtn.classList.remove("disable"); //disables it when clicked on
+        signupBtn.classList.add("disable");
+      };
+    </script>
+
+    <!-- Footer Section -->
+    <div class="footer-container">
+      <div class="footer-link-items">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>   <!--FOOTER WITH BUTTONS THAT LINKS TO MY PAGES-->
+        <a href="schedule.html">Schedule</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="register.html">Register!</a>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+Schedule Page
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech-Con 2023</title>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#home" id="navbar-logo">Tech-Con 2023</a>
+        <div class="navbar-toggle-button" id="mobile-menu"></div>
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-links" id="home-page">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-links" id="contact-page"
+              >Contact</a
+            >
+          </li>
+          <li class="navbar-item">             
+            <a href="schedule.html" class="navbar-links" id="schedule-page"      
+              >Schedule</a
+            >
+          </li>
+          <li class="navbar-item">
+            <a href="speakers.html" class="navbar-links" id="speakers-page"
+              >Speakers</a
+            >
+          </li>
+          <li class="navbar-button">
+            <a href="register.html" class="button" id="register-page"
+              >Registration</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Table -->
+
+    <input
+      type="text"
+      id="dayFilter"
+      onkeyup="filterTable()"
+      placeholder="Filter by Day:"
+    />
+
+    <table id="filterTable">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Speaker</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01/12/23</td>
+          <td>Tech-Talk Introduction Day 1</td>
+          <td>10:00 AM - 11:00pm</td>
+        </tr>
+        <tr>
+          <td>01/12/23</td>
+          <td>Tech-Talk with Jeff Bezos</td>
+          <td>1:00 AM - 3:00pm</td>
+        </tr>
+        <tr>
+          <td>01/12/23</td>
+          <td>Tech-Talk with Elon Musk</td>
+          <td>3:30 AM - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>02/12/23</td>
+          <td>Tech-Talk Introduction Day 2</td>
+          <td>10:00 AM - 11:00am</td>
+          <!--My Rows and Columns for my table-->
+        </tr>
+        <tr>
+          <td>02/12/23</td>
+          <td>Tech-Talk with Jack Dorsey</td>
+          <td>10:00 AM - 11:00am</td>
+        </tr>
+        <tr>
+          <td>02/12/23</td>
+          <td>Tech-Talk with Elon Musk</td>
+          <td>12:00 AM - 2:00pm</td>
+        </tr>
+        <tr>
+          <td>02/12/23</td>
+          <td>Tech-Talk with Anjali Sud</td>
+          <td>3:00 AM - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>03/12/23</td>
+          <td>Tech-Talk Final Day Talks</td>
+          <td>10:00 AM - 1:00PM</td>
+        </tr>
+        <tr>
+          <td>03/12/23</td>
+          <td>Tech-Talk Final Day Talks</td>
+          <td>1:45 PM - 3PM</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--JS for my filter-->
+    <script>
+      function filterTable() {
+        var dayInput, filter, table, tr, td; //get the input and its value
+        dayInput = document.getElementById("dayFilter"); //gets the table and its rows
+        filter = dayInput.value.toUpperCase();
+        table = document.getElementById("filterTable");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+          //loops through each row of the table
+          td = tr[i].getElementsByTagName("td")[0]; //gets the first element of the row
+          if (td) {
+            dayValue = td.textContent || td.innerText; //gets the content of the cell
+            if (dayValue.toUpperCase().indexOf(filter) > -1) {
+              //checks if the input is in the cell
+              tr[i].style.display = ""; // if its found show the row
+            } else {
+              tr[i].style.display = "none"; // if not hide the row
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Footer Section -->
+    <div class="footer-container">
+      <div class="footer-link-items">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="register.html">Register!</a>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+Speakers Page
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Con 2023</title>
+    <link rel="stylesheet" href="design.css"> <!--LINKS TO MY CSS PAGE-->
+</head>
+<body>
+  <!-- Navigation Bar for the top of my page -->
+  <nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" id="navbar-logo">Tech-Con 2023</a> 
+        <div class="navbar-toggle-button" id="mobile-menu"> 
+        </div>
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                 <a href="index.html" class="navbar-links" id="home-page">Home</a>  
+            </li>
+            <li class="navbar-item">
+                <a href="contact.html" class="navbar-links" id="contact-page">Contact</a>
+            </li>
+            <li class="navbar-item">
+                <a href="schedule.html" class="navbar-links" id="schedule-page">Schedule</a>                    <!--Links all my pages together-->
+            </li>
+            <li class="navbar-item">
+                <a href="speakers.html" class="navbar-links" id="speakers-page">Speakers</a>
+            </li>
+            <li class="navbar-button">
+                <a href="register.html" class="button" id="register-page">Registration</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+
+  <!-- Speaker Section -->
+<header>
+  <h1>Speakers</h1>
+</header>
+
+<section>
+    <div class ="Tech-people"> <!--DIV FOR MY SPEAKERS-->
+      <h2>Jeff Bezos</h2>
+      <p class = "text">American Entrepreneur, Investor and founder, executive chairman, and former president and CEO of Amazon. <!--PARAGRAPH-->
+          Entrepreneur and e-commerce pioneer Jeff Bezos is the founder and executive chair of the e-commerce company Amazon, owner of The Washington Post, 
+            and founder of the space exploration company Blue Origin. Born in 1964 in New Mexico, Bezos had an early love of computers and studied computer science and electrical engineering at Princeton 
+            University. After graduation, he worked on Wall Street, and in 1990, he became the youngest senior vice president at the investment firm D.E. Shaw. Four years later, Bezos quit his lucrative 
+            job to open Amazon.com, an online bookstore that became one of the internet's biggest success stories. He started Blue Origin in 2000, then in 2013, Bezos purchased The Washington Post. In 
+            2017, Amazon acquired Whole Foods.</p>
+      </div>
+  
+
+    <div class ="Tech-people"> <!--DIV FOR MY SPEAKERS-->
+        <h2>Elon Musk</h2>
+      <p class="text">A Businessman and investor of Tesla. Elon Musk (born June 28, 1971, Pretoria, South Africa) South African-born American entrepreneur who cofounded the electronic-payment firm PayPal and formed SpaceX, maker of launch vehicles and 
+        spacecraft. He was also one of the first significant investors in, as well as chief executive officer of, the electric car manufacturer Tesla. In addition, Musk acquired Twitter (later X) in 2022.</p>
+        
+      </div>
+ 
+
+      <div class ="Tech-people"> <!--DIV FOR MY SPEAKERS-->
+        <h2>Jack Dorsey</h2>
+        <p class="text">An american internet entrepreneur, philanthropist,who is a co-founder and former CEO of Twitter
+            Jack Dorsey (born November 19, 1976, St. Louis, Missouri, U.S.) American Web developer and entrepreneur who, with Evan Williams and Christopher Stone, cofounded (2006) the online microblogging service Twitter
+            As a teenager, Dorsey created taxi-dispatching software that was adopted by taxicab companies. He attended New York University before moving (1999) to San Francisco, 
+            where he set up a company that used the Internet to handle the dispatching of couriers and emergency vehicles as well as taxis. 
+            In 2000 he first considered using text and instant messaging (based on the principles of dispatch software) as a way of keeping in touch with friends.
+            Six years later he approached Williams and Stone with his idea; together they developed a prototype of what would become the Twitter platform. 
+            Dorsey posted the first Twitter message on March 21, 2006. The service, which allowed users to send messages no longer than 140 characters, quickly became a popular social networking hub as well as a 
+            mainstream form of communication. Dorsey served as CEO until October 2008, when he became chairman of the board. In that capacity, he was involved with Twitter's initial public offering (2013), which 
+            raised $1.8 billion.</p>
+      </div>
+ 
+  
+      <div class ="Tech-people"> <!--DIV FOR MY SPEAKERS-->
+        <h2>Anjali Sud</h2>
+        <p class="text">An American businesswomen and the CEO of Tubi, content platform and ad-supported streaming servive owned by Fox Corporation.
+          Sud was born in Detroit, Michigan, the daughter of Punjabi Hindu immigrants from India. She grew up in Flint, Michigan.In 1997, at age 14, Sud left Flint to study at Phillips Andover Academy, 
+            selective private school in Andover, Massachusetts.Sud graduated from the University of Pennsylvania in 2005, with a B.Sc. in Finance and Management.In 2011, she received her MBA from Harvard 
+            Business School. In 2014, Sud joined Vimeo, an IAC subsidiary, as Head of Global Marketing. She later served as General Manager of Vimeo's core creator business, where she built out the company's 
+            offering for hosting, distributing and monetizing videos. In that role, Sud led a number of launches on the platform, including Vimeo Business (a membership plan for marketers and brands),
+            360 video support, and video collaboration and review tools.Sud was appointed to CEO of Vimeo in July 2017, as the company announced its plans to refocus its strategy from investing in original 
+            content to offering software and tools for video creators. In September 2017, Sud oversaw the acquisition of Livestream.In April 2019, Sud oversaw the acquisition of video editing app Magisto. 
+            In November 2021, Sud oversaw the acquisitions of video software startups WIREWAX and Wibbitz. In November 2020, Vimeo raised $150 million in equity from Thrive Capital and GIC at a valuation
+            of $2.75 billion.In January 2021, Vimeo raised $300 million in equity from T. Rowe Price and Oberndorf Enterprises at a valuation of over $5 billion.In May 2021, IAC completed a spinoff
+            of Vimeo into an independent publicly-traded company on Nasdaq (ticker: VMEO).After Sud's nine years at Vimeo and six years as CEO, on July 5, 2023, Vimeo announced that she would be departing
+             to pursue another opportunity on Sept. 1, 2023. Sud announced on July 17, 2023 that she would be joining the free streaming service Tubi as its new CEO, replacing founder Farhad Massoudi.</p>
+      </div>
+</section>
+
+
+
+  
+<!-- Footer Section -->
+<div class="footer-container">
+            <div class="footer-link-items">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Us</a>  <!--FOOTER WITH BUTTONS THAT LINKS TO MY PAGES-->
+                <a href="schedule.html">Schedule</a>
+                <a href="speakers.html">Speakers</a>
+                <a href="register.html">Register!</a>   
+            </div>
+</div> 
+
+</html>
+</body>
+
+
+
+Contact Page
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech-Con 2023</title>
+    <link rel="stylesheet" href="design.css" /> <!--LINKS TO MY CSS PAGE-->
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+          <a href="index.html" id="navbar-logo">Tech-Con 2023</a> 
+          <div class="navbar-toggle-button" id="mobile-menu"> 
+          </div>
+          <ul class="navbar-menu">
+              <li class="navbar-item">
+                   <a href="index.html" class="navbar-links" id="home-page">Home</a>  
+              </li>
+              <li class="navbar-item">
+                  <a href="contact.html" class="navbar-links" id="contact-page">Contact</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="schedule.html" class="navbar-links" id="schedule-page">Schedule</a>                    <!--Links all my pages together-->
+              </li>
+              <li class="navbar-item">
+                  <a href="speakers.html" class="navbar-links" id="speakers-page">Speakers</a>
+              </li>
+              <li class="navbar-button">
+                  <a href="register.html" class="button" id="register-page">Registration</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+
+    <!-- Contact Us -->
+    <section class="contact">
+      <div class="content">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-box">
+            <div class="contact-text">
+              <h3>Address</h3>
+              <p>181 Lemington Road, <br />Phoenix, Phoenix Center</p>
+            </div>
+          </div>
+          <div class="contact-box">
+            <div class="contact-text">
+              <h3>Email</h3>
+              <a href="mailto:ab1269@student.le.ac.uk"
+                >ab1269@student.le.ac.uk</a> <!--link to email address-->
+              
+            </div>
+          </div>
+          <div class="contact-box"> 
+            <div class="contact-text">
+              <h3>Phone Number</h3>  
+              <p>0719302345</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form>
+            <h2>Send Queries</h2>
+            <div class="inputbox">
+              <input type="text" name="" required="required" /> <!--This makes sure that the box is required so cannot leave it empty-->
+              <span>Full Name</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" name="" required="required" /> <!--This makes sure that the box is required so cannot leave it empty-->
+              <span>Email</span>
+            </div>
+            <div class="inputbox">
+              <textarea required="required"></textarea> <!--This makes sure that the box is required so cannot leave it empty-->
+              <span>Type your message...</span>
+            </div>
+            <div class="inputbox">
+              <input type="submit" name="" value="send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer-container">
+      <div class="footer-link-items">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="schedule.html">Schedule</a>      <!--FOOTER WITH BUTTONS THAT LINKS TO MY PAGES-->
+        <a href="speakers.html">Speakers</a>
+        <a href="register.html">Register!</a>
+      </div>
+    </div>
+  </body>
+</html>
